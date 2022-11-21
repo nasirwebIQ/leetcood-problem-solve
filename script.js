@@ -11,3 +11,4 @@ var searchInsert = function(nums, target) {
         return nums.length
 };
 searchInsert(nums)
+console.log("nasir uddin");
