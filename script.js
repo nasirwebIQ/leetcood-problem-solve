@@ -12,3 +12,4 @@ var searchInsert = function(nums, target) {
 };
 searchInsert(nums)
 // nasir kisu poriborton korece main branch a
+console.log("nasir");
