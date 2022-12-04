@@ -1,13 +1,16 @@
 
-var nums = [1,3,5,6]
-var  target = 5
+let n = 16
+var isPowerOfTwo = function(n) {
+    if(n > .1){
+      return isPowerOfTwo(n/2)
+    }
+    if(n == 1){
+        return true;
 
-var searchInsert = function(nums, target) {
-    for (let i = 0; i < nums.length; i++){
-        if (nums[i] >= target) {
-        return i
-        }
-        }
-        return nums.length
+    }
+    if(n < 1){
+        return false
+    }
+   
 };
-searchInsert(nums)
+isPowerOfTwo(n)
