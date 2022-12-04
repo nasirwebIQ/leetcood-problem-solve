@@ -1,7 +1,7 @@
 
 let n = 16
 var isPowerOfTwo = function(n) {
-    if(n > .1){
+    if(n > 1){
       return isPowerOfTwo(n/2)
     }
     if(n == 1){
